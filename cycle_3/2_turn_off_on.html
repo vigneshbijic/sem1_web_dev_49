@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulb Switch</title>
+</head>
+<body>
+  <h1>BULB</h1>
+
+  <!-- Buttons -->
+  <button id="onbtn">ON</button>
+  <button id="offbtn">OFF</button>
+  <img id="light" src="bulb_off.png" alt="Bulb off" width="200">
+
+  <script>
+    document.getElementById('onbtn').addEventListener('click', function() {
+      document.getElementById('light').src = "after.jpg";
+    });
+    document.getElementById('offbtn').addEventListener('click', function() {
+      document.getElementById('light').src = "bomb.jpeg";
+    });
+  </script>
+</body>
+</html>
+
